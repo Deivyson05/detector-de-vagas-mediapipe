@@ -1,2 +1,2 @@
-dataset/validation/*
-dataset/train/*
+dataset/validation/images/*
+dataset/train/images/*
