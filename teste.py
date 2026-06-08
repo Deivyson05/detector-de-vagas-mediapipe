@@ -32,7 +32,7 @@ interpreter.allocate_tensors()
 input_details  = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
-img     = cv2.imread("carro3.jpg")
+img     = cv2.imread("carros.png")
 h0, w0  = img.shape[:2]
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 img_in  = cv2.resize(img_rgb, (INPUT_SIZE, INPUT_SIZE))
